@@ -23,6 +23,7 @@
 NS_CLASS_AVAILABLE_IOS(11_0) @interface RCTPdfView : UIView <UIGestureRecognizerDelegate>
 
 @property(nonatomic, strong) NSString *path;
+@property(nonatomic, strong) NSString *backgroundColor;
 @property(nonatomic) int page;
 @property(nonatomic) float scale;
 @property(nonatomic) float minScale;
