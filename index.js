@@ -74,6 +74,7 @@ export default class Pdf extends Component {
 
     static defaultProps = {
         password: "",
+        backgroundColor: "FFFFFF",
         scale: 1,
         minScale: 1,
         maxScale: 3,
