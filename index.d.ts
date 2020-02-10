@@ -6,37 +6,37 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import * as React from 'react';
-import * as ReactNative from 'react-native';
+import * as React from "react";
+import * as ReactNative from "react-native";
 
 interface Props {
-    style?: ReactNative.StyleProp<ReactNative.ViewStyle>,
-    source: object,
-    page?: number,
-    scale?: number,
-    minScale?: number,
-    maxScale?: number,
-    horizontal?: boolean,
-    spacing?: number,
-    password?: string,
-    activityIndicator?: any,
-    activityIndicatorProps?: object,
-    enableAntialiasing?: boolean,
-    enablePaging?: boolean,
-    enableRTL?: boolean,
-    enableAnnotationRendering?: boolean,
-    fitPolicy?: number,
-    trustAllCerts?: boolean,
-    onLoadProgress?: (percent: number,) => void,
-    onLoadComplete?: (numberOfPages: number, path: string) => void,
-    onPageChanged?: (page: number, numberOfPages: number) => void,
-    onError?: (error: object) => void,
-    onPageSingleTap?: (page: number) => void,
-    onScaleChanged?: (scale: number) => void,
-    onPressLink?: (url: string) => void,
+  style?: ReactNative.StyleProp<ReactNative.ViewStyle>;
+  source: object;
+  backgroundColor?: string;
+  page?: number;
+  scale?: number;
+  minScale?: number;
+  maxScale?: number;
+  horizontal?: boolean;
+  spacing?: number;
+  password?: string;
+  activityIndicator?: any;
+  activityIndicatorProps?: object;
+  enableAntialiasing?: boolean;
+  enablePaging?: boolean;
+  enableRTL?: boolean;
+  enableAnnotationRendering?: boolean;
+  fitPolicy?: number;
+  trustAllCerts?: boolean;
+  onLoadProgress?: (percent: number) => void;
+  onLoadComplete?: (numberOfPages: number, path: string) => void;
+  onPageChanged?: (page: number, numberOfPages: number) => void;
+  onError?: (error: object) => void;
+  onPageSingleTap?: (page: number) => void;
+  onScaleChanged?: (scale: number) => void;
+  onPressLink?: (url: string) => void;
 }
 
-declare class Pdf extends React.Component<Props, any> {
-}
+declare class Pdf extends React.Component<Props, any> {}
 
 export default Pdf;

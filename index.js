@@ -38,6 +38,7 @@ export default class Pdf extends Component {
             // Opaque type returned by require('./test.pdf')
             PropTypes.number,
         ]).isRequired,
+        backgroundColor: PropTypes.string,
         page: PropTypes.number,
         scale: PropTypes.number,
         minScale: PropTypes.number,
